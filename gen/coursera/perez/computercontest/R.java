@@ -29,42 +29,49 @@ public final class R {
         public static final int wrong_answer=0x7f020005;
     }
     public static final class id {
-        public static final int action_settings=0x7f090016;
-        public static final int button1=0x7f09000e;
+        public static final int action_settings=0x7f09001b;
+        public static final int button1=0x7f090013;
         public static final int buttonAno=0x7f090001;
-        public static final int buttonC=0x7f090006;
-        public static final int buttonQ1=0x7f09000d;
+        public static final int buttonC=0x7f09000a;
+        public static final int buttonEnviar=0x7f090012;
+        public static final int buttonEnviarFeedback=0x7f090007;
+        public static final int buttonQ1=0x7f090011;
         public static final int buttonReg=0x7f090002;
+        public static final int comments=0x7f090006;
         public static final int editName=0x7f090003;
-        public static final int imageView1=0x7f090013;
-        public static final int imageViewC=0x7f090007;
-        public static final int imageViewH=0x7f09000f;
-        public static final int imageViewW=0x7f090015;
-        public static final int linearLayout1=0x7f090011;
-        public static final int r0=0x7f09000a;
-        public static final int r1=0x7f09000b;
-        public static final int r2=0x7f09000c;
-        public static final int radioGroup=0x7f090009;
-        public static final int radioGroup1=0x7f090014;
-        public static final int scrollView1=0x7f090010;
-        public static final int textQuestion1=0x7f090008;
-        public static final int textView1=0x7f090004;
-        public static final int textView2=0x7f090005;
+        public static final int email=0x7f090005;
+        public static final int imageView1=0x7f090018;
+        public static final int imageViewC=0x7f09000b;
+        public static final int imageViewH=0x7f090014;
+        public static final int imageViewW=0x7f09001a;
+        public static final int linearLayout1=0x7f090016;
+        public static final int name=0x7f090004;
+        public static final int r0=0x7f09000e;
+        public static final int r1=0x7f09000f;
+        public static final int r2=0x7f090010;
+        public static final int radioGroup=0x7f09000d;
+        public static final int radioGroup1=0x7f090019;
+        public static final int scrollView1=0x7f090015;
+        public static final int textQuestion1=0x7f09000c;
+        public static final int textView1=0x7f090008;
+        public static final int textView2=0x7f090009;
         public static final int textWelcome=0x7f090000;
-        public static final int text_question=0x7f090012;
+        public static final int text_question=0x7f090017;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int blue_button=0x7f030001;
-        public static final int correct_answer=0x7f030002;
-        public static final int first_question=0x7f030003;
-        public static final int hooray=0x7f030004;
-        public static final int second_question=0x7f030005;
-        public static final int third_question=0x7f030006;
-        public static final int wrong_answer=0x7f030007;
+        public static final int activity_recommended=0x7f030001;
+        public static final int blue_button=0x7f030002;
+        public static final int correct_answer=0x7f030003;
+        public static final int first_question=0x7f030004;
+        public static final int hooray=0x7f030005;
+        public static final int second_question=0x7f030006;
+        public static final int third_question=0x7f030007;
+        public static final int wrong_answer=0x7f030008;
     }
     public static final class menu {
         public static final int main=0x7f080000;
+        public static final int recommended=0x7f080001;
     }
     public static final class raw {
         public static final int hooray=0x7f040000;
@@ -83,18 +90,22 @@ public final class R {
         public static final int buttom_try_another_question=0x7f06001b;
         public static final int button_restart_text=0x7f06001e;
         public static final int button_text=0x7f060013;
+        public static final int comments_and_feedback=0x7f060024;
         public static final int congratulations=0x7f060014;
         public static final int content_bad_answer=0x7f060018;
         public static final int content_good_answer=0x7f060019;
         public static final int content_von_neumann_architecture=0x7f06001a;
         public static final int content_win_text=0x7f06001c;
         public static final int editText_name=0x7f060004;
+        public static final int hello_world=0x7f060021;
         public static final int question_one=0x7f060006;
         public static final int question_text2=0x7f06000b;
         public static final int question_text3=0x7f06000c;
         public static final int rb_q1=0x7f060007;
         public static final int rb_q2=0x7f060008;
         public static final int rb_q3=0x7f060009;
+        public static final int recommends_=0x7f060025;
+        public static final int send=0x7f060026;
         public static final int t_buttonAnswer=0x7f06000a;
         public static final int text_another_try=0x7f060017;
         public static final int text_button_anonymous=0x7f060002;
@@ -102,7 +113,10 @@ public final class R {
         public static final int text_correct=0x7f060015;
         public static final int text_welcome=0x7f060005;
         public static final int text_wrong=0x7f060016;
+        public static final int title_activity_recommended=0x7f060020;
         public static final int wining_text=0x7f06001d;
+        public static final int your_email_address=0x7f060023;
+        public static final int your_name=0x7f060022;
     }
     public static final class style {
         /** 

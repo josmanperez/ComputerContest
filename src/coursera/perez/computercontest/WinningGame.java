@@ -17,13 +17,14 @@ public class WinningGame extends Activity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.hooray);
-		
+
 		ImageView imageH = (ImageView) findViewById(R.id.imageViewH);
 		imageH.setVisibility(View.VISIBLE);
-		Animation anim = AnimationUtils.makeInAnimation(this.getApplicationContext(), true);
+		Animation anim = AnimationUtils.makeInAnimation(
+				this.getApplicationContext(), true);
 		imageH.setAnimation(anim);
+
 		
-		winningMusic = MediaPlayer.create(this, R.raw.hooray);
 
 	}
 
@@ -31,22 +32,29 @@ public class WinningGame extends Activity {
 		startActivity(new Intent(this, FirstQuestion.class));
 		finish();
 	}
-	
+
 	@Override
 	protected void onResume() {
 		// TODO Auto-generated method stub
-		super.onResume();
+		winningMusic = MediaPlayer.create(this, R.raw.hooray);
 		winningMusic.start();
-				
+		super.onResume();
+		
+
 	}
 
 	@Override
 	protected void onPause() {
 		// TODO Auto-generated method stub
-		super.onPause();
 		winningMusic.stop();
 		winningMusic.release();
+		super.onPause();
+
 	}
 
+	public void proccesRecomemded(View v) {
+		Intent myintent = new Intent(this, Recommended.class);
+		startActivity(myintent);
+	}
 
 }

@@ -19,6 +19,7 @@ public class WrongAnswer extends Activity {
 		Animation anim = AnimationUtils.makeInAnimation(
 				this.getApplicationContext(), true);
 		imageW.setAnimation(anim);
+
 	}
 	/*
 	 * public void backButtonImage (View v){ super.onBackPressed(); }

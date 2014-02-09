@@ -16,7 +16,7 @@
     <string name="rb_q2">Alan Turing</string>
     <string name="rb_q3">John von Neumann</string>
     <string name="t_buttonAnswer">Test your answer!</string>
-    <string name="question_text2">This architecture model corresponds to&#8230;</string>    
+    <string name="question_text2">This architecture model corresponds to&#8230;</string>
     <string name="question_text3">Who is considered to be the <b>developer of the 
         first algorithm</b> ever specifically tailored for implementation on a computer</string>
     <string name="answer4">John von Neumann</string>
@@ -36,7 +36,14 @@
     <string name="buttom_try_another_question">Try another question</string>
     <string name="content_win_text">you win the game</string>
     <string name="wining_text"><b>CONGRATULATIONS!\n</b>YOU FINISH THE GAME</string>
-    <string name="button_restart_text">Restart the contest</string>
+    <string name="button_restart_text">Restart</string>
     <string name="back_text">Back</string>
-    
+    <string name="title_activity_recommended">Recommended</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="your_name">Enter your name</string>
+    <string name="your_email_address">Enter email address</string>
+    <string name="comments_and_feedback">Comments and feedback</string>
+    <string name="recommends_">Recommends..</string>
+    <string name="send">Send</string>
+
 </resources>

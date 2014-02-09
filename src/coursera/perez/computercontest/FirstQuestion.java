@@ -10,6 +10,7 @@ import android.widget.RadioGroup;
 import android.widget.Toast;
 
 public class FirstQuestion extends Activity {
+	
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -29,14 +30,18 @@ public class FirstQuestion extends Activity {
 
 		if (rbc.getId() == aux) {
 			// if is the right answer
-			Intent myintent = new Intent(this, CorrectAnswer.class);
+			Intent myintent = new Intent(this, Answer.class);
 			myintent.putExtra("Activity", 1);
+			myintent.putExtra("Puntos ganados", 2);
 			startActivity(myintent);
 			// startActivity(new Intent(this,CorrectAnswer.class));
 
 		} else {
 			// if is the wrong answer
-			startActivity(new Intent(this, WrongAnswer.class));
+			Intent myintent = new Intent(this, WrongAnswer.class);
+			myintent.putExtra("Puntos perdidos", 1);
+			startActivity(myintent);
+			//startActivity(new Intent(this, WrongAnswer.class));
 		}
 	}
 

@@ -14,26 +14,38 @@
         android:textSize="25sp" />
 
     <Button
+        android:id="@+id/buttonEnviar"
+        style="@style/ButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:background="@layout/blue_button"
+        android:text="@string/recommends_"
+        android:onClick="proccesRecomemded" />
+
+    <ImageView
+        android:id="@+id/imageViewH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/buttonEnviar"
+        android:layout_below="@id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/content_win_text"
+        android:src="@drawable/hooray"
+        android:visibility="invisible" />
+
+    <Button
         android:id="@+id/button1"
         style="@style/ButtonText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
+        android:layout_toLeftOf="@+id/buttonEnviar"
         android:background="@layout/blue_button"
         android:onClick="buttonRestartcontest"
         android:text="@string/button_restart_text" />
-
-    <ImageView
-        android:id="@+id/imageViewH"
-        android:visibility="invisible"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_above="@id/button1"
-        android:layout_below="@id/textView1"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:contentDescription="@string/content_win_text"
-        android:src="@drawable/hooray" />
 
 </RelativeLayout>

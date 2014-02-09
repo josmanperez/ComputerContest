@@ -33,7 +33,7 @@ public class SecondQuestion extends Activity {
 
 		if (rbc.getId() == aux) {
 			// if is the right answer
-			Intent myintent = new Intent(this, CorrectAnswer.class);
+			Intent myintent = new Intent(this, Answer.class);
 			myintent.putExtra("Activity", 2);
 			startActivity(myintent);
 
