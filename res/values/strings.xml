@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Computer Contest</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_button_anonymous">Continue as anonymous</string>
+    <string name="text_button_register">Register</string>
+    <string name="editText_name">Enter your name..</string>
+    <string name="text_welcome">Welcome!</string>
+    <string name="question_one">The <b>bombe</b> was an electromechanical device 
+        used by cryptologists to decipher German 
+        Enigma secret messages during World War II.
+        The initial design of the bombe was produced in 1939 at the UK 
+        Government by&#8230;</string>
+    <string name="rb_q1">Grace Hooper</string>
+    <string name="rb_q2">Alan Turing</string>
+    <string name="rb_q3">John von Neumann</string>
+    <string name="t_buttonAnswer">Test your answer!</string>
+    <string name="question_text2">This architecture model corresponds to&#8230;</string>    
+    <string name="question_text3">Who is considered to be the <b>developer of the 
+        first algorithm</b> ever specifically tailored for implementation on a computer</string>
+    <string name="answer4">John von Neumann</string>
+    <string name="answer5">Ada Lovelace</string>
+    <string name="answer6">Steve Wozniak</string>
+    <string name="answer7">Ada Lovelace</string>
+    <string name="answer8">Charles Babbage</string>
+    <string name="answer9">Grace Hopper</string>
+    <string name="button_text">Test your answer!</string>
+    <string name="congratulations"><b><i>Congratulations!</i></b></string>
+    <string name="text_correct">Your answer is correct!</string>
+    <string name="text_wrong">You chose the wrong answer</string>
+    <string name="text_another_try">have another try!</string>
+    <string name="content_bad_answer">bad answer</string>
+    <string name="content_good_answer">good answer</string>
+    <string name="content_von_neumann_architecture">Von neumann architecture</string>
+    <string name="buttom_try_another_question">Try another question</string>
+    <string name="content_win_text">you win the game</string>
+    <string name="wining_text"><b>CONGRATULATIONS!\n</b>YOU FINISH THE GAME</string>
+    <string name="button_restart_text">Restart the contest</string>
+    <string name="back_text">Back</string>
+    
+</resources>

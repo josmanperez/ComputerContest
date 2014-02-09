@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textQuestion1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/question_one"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textQuestion1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="35sp" >
+
+        <RadioButton
+            android:id="@+id/r0"
+            android:checked="true"
+            android:textSize="20sp"
+            android:text="@string/rb_q1" />
+
+        <RadioButton
+            android:id="@+id/r1"
+            android:textSize="20sp"
+            android:text="@string/rb_q2" />
+
+        <RadioButton
+            android:id="@+id/r2"
+            android:textSize="20sp"
+            android:text="@string/rb_q3" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/buttonQ1"
+        style="@style/ButtonText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10sp"
+        android:background="@layout/blue_button"
+        android:text="@string/t_buttonAnswer" 
+        android:onClick="buttonClick"/>
+
+</RelativeLayout>
